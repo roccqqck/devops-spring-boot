@@ -20,9 +20,14 @@ The project is based on a small web service which uses the following technologie
 
 # Multi-stage build
 
-Build: ```docker image build -f Dockerfile -t people:multistage .```
+```
+git clone https://github.com/roccqqck/devops-spring-boot.git
+cd devops-spring-boot
+```
 
-Run: ```docker container run -it -p 8080:8080 people:multistage```
+Build: ```docker image build -f Dockerfile -t roccqqck:springboot .```
+
+Run: ```docker container run -it -p 8080:8080 roccqqck:springboot```
 
 
 
