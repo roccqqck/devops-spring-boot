@@ -1,4 +1,4 @@
-FROM maven:3.6.3-jdk-8 as BUILD
+FROM maven:3-jdk-8 as BUILD
 
 COPY src /usr/src/myapp/src
 COPY pom.xml /usr/src/myapp
